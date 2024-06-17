@@ -1,11 +1,46 @@
-/* Example of using the blue color palette */
-
-body {
-  background-color: #F0F9FF; /* Background Blue */
-  color: #0056B3; /* Dark Blue for text */
-  font-family: Arial, sans-serif;
+/* Reset and global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F9FF; /* Background Blue */
+  color: #0056B3; /* Dark Blue for text */
+}
+
+/* Header styles */
+header {
+  background-color: #007BFF; /* Primary Blue */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+}
+
+header h1 {
+  color: #fff; /* White text */
+  margin-top: 10px;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.center-content {
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+  padding: 20px;
+}
+
+/* Example of using the blue color palette */
 .primary-button {
   background-color: #007BFF; /* Primary Blue */
   color: #fff; /* White text */
